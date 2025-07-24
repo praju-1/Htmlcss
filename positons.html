@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            background-color: aquamarine;
+            width: 100%;
+            height: 1000px;
+        }
+        .a{
+            border: 2px solid black;
+            margin: 5px;
+            height: 150px;
+            width: 150px;
+        }
+
+        #a1{
+            position: static;
+            top: 100px;
+            background-color: blueviolet;
+        }
+        #a2{
+            position: relative;
+            left: 100px;
+            top:50px
+        }
+        #a3{
+            position: absolute;
+            top: 30px;
+            left: 100px;
+        }
+        #a4{
+            position: fixed;
+            right: 5px;
+            bottom: 5px;
+        }
+        #a5{
+            position: sticky;
+            top: 5px;
+            left: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="a" id="a1">Static</div>
+        <div class="a" id="a2">Relative</div>
+        <div class="a" id="a3">Absolute</div>
+        <div class="a" id="a4">Fixed</div>
+        <div class="a" id="a5">Sticky</div>
+    </div>
+
+</body>
+
+</html>

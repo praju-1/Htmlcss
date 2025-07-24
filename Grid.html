@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item1{grid-area: header;}
+        .item2{grid-area :menu;}
+        .main{grid-area :main;}
+        .right{grid-area :right;}
+        .footer{grid-area :footer;}
+
+        .grid-container{
+            display: grid;
+            grid-template-areas: 
+            'header header header header header header'
+            'menu main main main right right'
+            'footer footer footer footer footer footer';
+            grid-gap: 10px;
+        }
+        .grid-container div{
+            background-color: cadetblue;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+
+        <div class="item1">Header</div>
+        <div class="item2">Menu</div>
+        <div class="main">Main</div>
+        <div class="right">Right</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>

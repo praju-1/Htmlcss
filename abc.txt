@@ -1,0 +1,4 @@
+Hello this is ................ write modeHello this is append modeHello this is append mode
+Hello this is append mode
+Hello this is append mode	Hello this is append mode	Hello this is append mode
+	Hello this is append mode

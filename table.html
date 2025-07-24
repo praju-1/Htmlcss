@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            height: 200px;
+            width: 100%;
+            text-align: center;
+        }
+        th{
+            color: black;
+            background-color: gray;
+        }
+        /* td{
+            color: blue;
+            background-color: lightpink;
+        } */
+        tr:nth-child(even){
+            background-color: darkseagreen;
+        }
+         tr:nth-child(odd){
+            background-color:chartreuse;
+        }
+        tr:hover{
+            background-color: deepskyblue;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Employee's Info</caption>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th colspan="2">Contact</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John</td>
+            <td>123456</td>
+             <td>123456</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Max</td>
+            <td>23456</td>
+            <td>23456</td>           
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Prince</td>
+            <td>56676</td>
+             <td>123456</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,214 @@
+
+3 ways
+1. copy path
+2. live server 
+3. double click
+
+comment
+
+2 types
+1. two way closing tag
+2. self closing
+
+
+html elements
+1. inline element
+2. block element - tag
+
+
+
+target 
+self - bydefault - same tab
+blank - separate tab
+parent -  same tab - parent frame
+top -  same tab - open in full body of window
+
+
+beharviour - scroll
+            - slide
+            - alternate
+
+direction - left
+            -right
+            - up
+            -down
+
+
+
+html 
+project topics : Website - 6-7 - fs
+                        - 3 -4 project
+
+topic : products - images text  color
+
+
+topic : 
+ecomerr - home furinite cloth
+
+unsplash
+google image 
+freepik
+
+
+css -  cascading style sheet - page style 
+html + css 
+1. inline css
+2. internal css
+3. External css
+
+
+1. color 
+
+1. predifined colors - known color
+2. hexadecimal color
+3. rgb()
+4. rgba()
+5. hsl() 
+h- hue - degree - 0-360
+s- saturation - 0-100%
+    0 - gray shade
+    100% - full color
+l - lightness - 0-100%
+    0% - is black
+    100 - white
+
+6. hsla()
+7. hexadecimal with transpercy
+8. currentcolor
+
+oklab : color: oklab(<lightness> <a> <b> / <alpha?>);
+        lightness → range: 0 to 1 (0 = black, 1 = white)
+        a and b → chroma components (typically between -0.5 and 0.5)
+        / alpha → optional transparency (0 to 1 or %)
+
+
+oklch() : stands for Lightness, Chroma, and Hue, based on the OKLab color space
+
+chroma refers to the intensity or vividness of a color — similar to saturation, but more perceptually accurate.
+
+color: lab(<lightness> <a> <b> / <alpha?>);
+lch() – Lightness, Chroma, Hue
+
+
+Box Model : 
+1. border
+2. margin
+3. padding
+
+border width - thin - aprox 1px
+                thick - aprox 5px
+                mediun - aprox 3px
+
+1. ordered list  - sequence available 
+2. unordered list - sequence not available
+3. description list - to describe 
+4. nested list - 
+
+table
+
+<table>
+<tr>
+<th>
+
+
+Assignment 2 : 
+Marksheet : 
+
+1. static - bydefault or normal flow of page - left right top bottom - will not affect
+2. relative - elements/tags original position flow of page -left right top bottom will work
+3. fixed - fixed 
+4. absolute - completely removed from document flow. position write into containing block
+5. sticky
+
+
+display :
+inline
+inline-block
+block
+none
+
+
+Navigation bar : 
+1. nav 
+2. list 
+
+horizontal Navigation bar
+vertical Navigation bar
+
+Animations property - object
+1. css 
+2. keyframes 
+
+1. animation name
+2. duration
+timing functions
+
+linear
+ease
+ease-in
+ease-out
+ease-in-out
+cubic
+step
+
+
+transform
+
+translate
+rotate
+scaleX() 
+1 - no scaling 0
+0 - no skewing 1
+150 pixel
+
+
+
+scaleY()
+skewX()
+skewY()
+scale()
+matrix(scaleX(), skewY(), skewX(),  scaleY(), translaterX(), translaterY())
+
+number
+degree
+degree
+number 
+px
+
+gradients - background color
+- linear gradients
+- radial gradients
+- conic gradients
+
+
+Form : information send
+
+Login Form
+Enquiry form 
+Registration
+exam form
+google form
+admission form 
+contact form
+
+
+
+1. Registration form
+2. Login form 
+3. admission Form
+
+
+svg - scalable vector graphic
+circle
+rectangle
+polygon
+line
+
+
+Html css  : static Website
+1. topic
+2. coding 
+3. 2 form login Registration
+4. choice of color
+5. alignments/size
+

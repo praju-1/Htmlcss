@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: burlywood;
+            width: 100%;
+            height: 1000px;
+            display: grid;
+            grid-template-columns: 200px 1fr 300px;
+            grid-template-rows: 150px 1fr 200px;
+            /* row-gap: 5px;
+            column-gap: 5px; */
+            grid-gap: 5px;
+        }
+        .item{
+            background-color: darkseagreen;
+            border: 1px solid black;
+        }
+        .header{
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .footer{
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="item header">Header</div>
+        <div class="item">Profile</div>
+        <div class="item">Feed</div>
+        <div class="item">News ads</div>
+        <div class="item footer">Footer</div>
+    </div>
+    
+</body>
+</html>
