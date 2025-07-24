@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         
+        div{
+            background-color: cornflowerblue;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            animation-name: arrow;
+            animation-duration: 4s;
+            position: relative;
+            /* animation-delay: 2s; */
+            animation-iteration-count: 2;
+            animation-direction:alternate-reverse;
+            /* animation-play-state: paused; */
+        }
+        @keyframes arrow {
+            /* from{background-color:chartreuse ;}
+            to{background-color: chocolate;} */
+
+            0%{background-color: brown; left: 0; top: 0;}
+            20%{background-color:pink;left: 200px; top: 0;}
+            50%{background-color:blue; left:200px ;top: 200px;}
+            75%{background-color: yellow;left: 0;top: 200px;}
+            100%{background-color:darkgreen; left: 0; top: 0;}
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div>This is animation property</div>
+</body>
+</html>
